@@ -1,0 +1,47 @@
+# Project: 项目1
+# Makefile created by Dev-C++ 5.4.2
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = city.o main.o map.o stdafx.o time.o vehicle.o test.o
+LINKOBJ  = city.o main.o map.o stdafx.o time.o vehicle.o test.o
+LIBS     = -L"E:/Program_Design/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -g3
+INCS     = -I"E:/Program_Design/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include"
+CXXINCS  = -I"E:/Program_Design/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include"
+BIN      = 项目1.exe
+CXXFLAGS = $(CXXINCS) -std=gnu99 -g3
+CFLAGS   = $(INCS) -std=gnu99 -g3
+RM       = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+city.o: city.cpp stdafx.h targetver.h time.h city.h map.h vehicle.h  test.h heap.h
+	$(CPP) -c city.cpp -o city.o $(CXXFLAGS)
+
+main.o: main.cpp stdafx.h targetver.h time.h city.h map.h vehicle.h  test.h heap.h
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+map.o: map.cpp stdafx.h targetver.h time.h city.h map.h vehicle.h test.h  heap.h
+	$(CPP) -c map.cpp -o map.o $(CXXFLAGS)
+
+stdafx.o: stdafx.cpp stdafx.h targetver.h time.h city.h map.h vehicle.h  test.h heap.h
+	$(CPP) -c stdafx.cpp -o stdafx.o $(CXXFLAGS)
+
+time.o: time.cpp stdafx.h targetver.h time.h city.h map.h vehicle.h  test.h heap.h
+	$(CPP) -c time.cpp -o time.o $(CXXFLAGS)
+
+vehicle.o: vehicle.cpp stdafx.h targetver.h time.h city.h map.h vehicle.h  test.h heap.h
+	$(CPP) -c vehicle.cpp -o vehicle.o $(CXXFLAGS)
+
+test.o: test.cpp stdafx.h targetver.h time.h city.h map.h vehicle.h  test.h heap.h
+	$(CPP) -c test.cpp -o test.o $(CXXFLAGS)

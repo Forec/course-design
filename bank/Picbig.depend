@@ -1,0 +1,89 @@
+# depslib dependency file v1.0
+1434735560 source:c:\users\forec_\desktop\picbig\graph.c
+	<stdio.h>
+	<windows.h>
+	<memory.h>
+	"egg.h"
+	"Format.h"
+
+1275309344 c:\users\forec_\desktop\picbig\egg.h
+	<windows.h>
+	<limits.h>
+
+1434733116 c:\users\forec_\desktop\picbig\format.h
+	<stdio.h>
+	<windows.h>
+	"egg.h"
+
+1434471096 source:c:\users\forec_\desktop\程序设计\picbig\graph.c
+	<stdio.h>
+	<windows.h>
+	<memory.h>
+	"egg.h"
+	"Format.h"
+
+1275309344 c:\users\forec_\desktop\程序设计\picbig\egg.h
+	<windows.h>
+	<limits.h>
+
+1434469087 c:\users\forec_\desktop\程序设计\picbig\format.h
+	<stdio.h>
+	<windows.h>
+	"egg.h"
+
+1434470776 source:c:\users\forec_\desktop\程序设计\picbig\refresh.c
+	<malloc.h>
+	<stdio.h>
+	<time.h>
+	<conio.h>
+	<stdlib.h>
+	<math.h>
+	<windows.h>
+	"Format.h"
+	<egg.h>
+
+1434447577 source:c:\users\forec_\desktop\程序设计\picbig\vip.c
+	<stdio.h>
+	<malloc.h>
+	<string.h>
+	<windows.h>
+	"Format.h"
+
+1434375800 source:c:\users\forec_\desktop\程序设计\picbig\thread.c
+	<stdio.h>
+	<conio.h>
+	<windows.h>
+	<process.h>
+	<time.h>
+	"Format.h"
+	<direct.h>
+	"process.h"
+
+1434375800 source:c:\users\forec_\desktop\picbig\thread.c
+	<stdio.h>
+	<conio.h>
+	<windows.h>
+	<process.h>
+	<time.h>
+	"Format.h"
+	<direct.h>
+	"process.h"
+
+1434733313 source:c:\users\forec_\desktop\picbig\vip.c
+	<stdio.h>
+	<malloc.h>
+	<string.h>
+	<windows.h>
+	"Format.h"
+
+1434731434 source:c:\users\forec_\desktop\picbig\refresh.c
+	<malloc.h>
+	<stdio.h>
+	<time.h>
+	<conio.h>
+	<stdlib.h>
+	<math.h>
+	<windows.h>
+	"Format.h"
+	<egg.h>
+

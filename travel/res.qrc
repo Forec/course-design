@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="icon">E:/Forec/Documents/Photos/Others/访客头像.jpg</file>
+        <file>t.ico</file>
+        <file alias="map">map.gif</file>
+        <file alias="map2">map.jpg</file>
+    </qresource>
+</RCC>
