@@ -13,6 +13,7 @@
 * [顶点云存储桌面客户端](https://github.com/forec-org/cloud-storage-client)：本科三年级《程序设计实践》自选题的云存储系统的的桌面客户端，主要由 [non1996](https://github.com/non1996) 设计。
 * [顶点云设备管理平台](https://github.com/Forec/zenith-monitor)：本科三年级《网络编程技术》课程设计，已扩展支持真实设备管理。
 * [面向对象 Java 程序设计](java/)：本科三年级《面向对象与设计模式 Java》实验。
+* [计算机组成原理课程设计](computer-organization-design/)：本科三年级（上学期）小学期计算机组成原理课程设计，在 TEC-8 实验系统实现具有流水线等功能的 CPU。
 
 ## 许可证
 此仓库中的代码受仓库中 `License` 文件声明的许可证保护。
