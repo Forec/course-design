@@ -14,6 +14,8 @@
 * [顶点云设备管理平台](https://github.com/Forec/zenith-monitor)：本科三年级《网络编程技术》课程设计，已扩展支持真实设备管理。
 * [面向对象 Java 程序设计](java/)：本科三年级《面向对象与设计模式 Java》实验。
 * [计算机组成原理课程设计](computer-organization-design/)：本科三年级（上学期）小学期计算机组成原理课程设计，在 TEC-8 实验系统实现具有流水线等功能的 CPU。
+* [数据库系统课程设计](https://github.com/Forec/WildPointer)：本科四年级数据库系统课程设计，仿 StackOverflow 问答社区。
+* [操作系统课程设计](https://github.com/forec-org/Ferry-OS)：本科四年级操作系统课程设计，Ferry OS。
 
 ## 许可证
 此仓库中的代码受仓库中 `License` 文件声明的许可证保护。
